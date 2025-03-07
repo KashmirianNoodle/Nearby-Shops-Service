@@ -34,7 +34,7 @@ This project provides a backend service to find nearby pizza and juice shops usi
 GET /search/pizza?location=New+York
 ```
 
-## setup
+## Setup
 
 ### Prerequisites
 - Node.js installed
