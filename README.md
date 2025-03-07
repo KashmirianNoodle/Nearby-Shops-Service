@@ -32,3 +32,26 @@ This project provides a backend service to find nearby pizza and juice shops usi
 ### Request Example
 ```bash
 GET /search/pizza?location=New+York
+
+
+## setup
+
+### Prerequisites
+- Node.js installed
+- Yelp Fusion API key
+
+### Steps
+```bash
+# Clone the repository
+git clone https://github.com/your-repo/nearby-shops-api.git
+cd nearby-shops-api
+
+# Install dependencies
+npm install
+
+# Set environment variables
+Create a `.env` file in the root directory and set your Yelp API key:
+YELP_API_KEY=your_yelp_api_key
+
+# Start the server
+npm start
